@@ -1,3 +1,4 @@
+require('dotenv').config();
 const port = 4000;
 const express = require("express");
 const app = express();
@@ -11,8 +12,15 @@ app.use(express.json());//go through json
 app.use(cors());//react proj will connect to express app on 4000 port
 
 // Database Connection with MongoDB
-mongoose.connect("mongodb+srv://sofiia13:1914Sof@cluster0.j3hktkm.mongodb.net/online-store");
-/*mongoose.connect("mongodb+srv://sofiia13:1914Sof@cluster0.j3hktkm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/online-store");*/
+mongoose.connect(process.env.MONGODB_URI, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+}).then(() => {
+    console.log("Connected to MongoDB");
+}).catch((error) => {
+    console.error("Error connecting to MongoDB:", error);
+});
+
 //API Creation
 app.get("/",(req,res)=>{
     res.send("Express App is Running")
