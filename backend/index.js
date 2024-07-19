@@ -12,7 +12,7 @@ app.use(cors());//react proj will connect to express app on 4000 port
 
 // Database Connection with MongoDB
 mongoose.connect("mongodb+srv://sofiia13:1914Sof@cluster0.j3hktkm.mongodb.net/online-store");
-
+/*mongoose.connect("mongodb+srv://sofiia13:1914Sof@cluster0.j3hktkm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/online-store");*/
 //API Creation
 app.get("/",(req,res)=>{
     res.send("Express App is Running")
