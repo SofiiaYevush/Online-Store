@@ -8,7 +8,9 @@ This project is a full stack website developed using React JS for the front-end 
 **Front-end:** React JS  
 **Back-end:** Node.js, Express  
 **Database:** MongoDB  
-**Libraries and Tools**
+
+
+**Libraries and Tools:**
 - JWT: For user authentication
 - Mongoose: For MongoDB object modeling
 - Multer: For handling images uploads
@@ -17,6 +19,7 @@ This project is a full stack website developed using React JS for the front-end 
 - Hooks (useState, useEffect, useContext, useRef): For managing component state, lifecycle, context, and references
 - Fetch API: For making network requests
 - React Router: For navigation
+
 
 
 
