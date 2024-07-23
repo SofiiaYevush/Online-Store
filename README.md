@@ -21,18 +21,17 @@ This project is a full stack website developed using React JS for the front-end 
 - React Router: For navigation
 
 
+### Features
+*User Authentication:* Sign up, log in, and manage user sessions.  
+*Shopping Cart:* Add products to the cart and manage cart items.  
+*Order Management:* Place orders and view order history.  
+*Admin Panel:* Add, remove, and view all products. 
 
 
-> ### Setup Instructions
+> ## Setup Instructions
 > 1. Clone the repository.
 > 2. Navigate to the project directory.
 > 3. Install dependencies using `npm install`.
 > 4. Start the front-end server using `npm start`.
 > 5. Start the back-end server using `node .\index.js`.
 > 6. Start the admin panel using `npm run dev`.
-
-### Features
-*User Authentication:* Sign up, log in, and manage user sessions.  
-*Shopping Cart:* Add products to the cart and manage cart items.  
-*Order Management:* Place orders and view order history.  
-*Admin Panel:* Add, remove, and view all products.  
