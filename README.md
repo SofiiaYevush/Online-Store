@@ -2,7 +2,7 @@
 ## Full Stack Website
 
 ### Description
-This project is a full stack website developed using React JS for the front-end and Node.js, Express, and MongoDB for the back-end. Also for bac The application includes features like user authentication, shopping cart, order management, and Admin panel.
+This project is a full stack website developed using React JS for the front-end and Node.js, Express, and MongoDB for the back-end. The application includes features like user authentication, shopping cart, order management, and Admin panel.
 
 ### Technologies Used
 **Front-end:** React JS  
